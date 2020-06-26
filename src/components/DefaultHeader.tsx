@@ -5,7 +5,7 @@ interface IAppProps { }
 const DefaultHeader: React.FunctionComponent<IAppProps> = props => {
     return (
         <div>
-            header..
+            HEADER
         </div>
     )
 }

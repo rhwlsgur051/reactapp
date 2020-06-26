@@ -1,11 +1,12 @@
 export default {
-  items: [{
-      name: '메인',
+  items: [
+    {
+      name: 'Main',
       url: '/main',
       icon: 'icon-home',
     },
     {
-      name: '메모',
+      name: 'Memo',
       url: '/memo',
       icon: 'icon-home',
       // badge: {

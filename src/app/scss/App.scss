@@ -1,11 +1,17 @@
 .app {
   width: 100%;
-  border: 1px solid grey;
+  max-width: 1024px;
+}
+
+.app-header {
+  height: 40px;
+  font-size: 32px;
+  text-align: center;
+  border-bottom: 1px solid orange;
 }
 
 .app-body {
   display: flex;
-  position: relative;
 }
 
 .App-logo {
@@ -34,24 +40,44 @@
 }
 
 .nav {
-  width: 100px;
-  border: 1px solid red;
+  padding-inline-start: 0px;
 
   .nav-item {
     list-style: none;
 
     .nav-link {
-      color: grey;
+      color: white;
       text-decoration: none;
+      padding: 15px;
     }
   }
 }
 
 .sidebar {
-  background-color: #616161;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  // background-color: #ffdd00;
+  background-color: black;
+
+  .side-menu {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+
+    li {
+      padding: 15px;
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+    }
+  }
 }
 
 .body-layout {
-  background-color: #DbFcab;
+  margin-left: 200px;
+  width: 100%;
 
+  .container {
+    padding: 15px 0 0 15px;
+  }
 }
